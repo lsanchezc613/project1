@@ -1,4 +1,4 @@
-# TopTelematica
+# Proyecto 1
 ### 4.1 Tecnologías usadas en el Back-end
 NodeJS y Express para el desarrollo del Back-end y los servicios API-REST.
 MongoDB para el desarrollo de la base de datos necesaria para los sensores.
