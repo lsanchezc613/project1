@@ -7,7 +7,9 @@ Vue.js
 
 ### 5. Servicios del API-REST y su especificación 
 GET: http//:localhost/api/sensor; permite traer todos los datos almacenados.
+
 GET: http//:localhost/api/sensor/:sensorId Trae un dato específico según un id.
+
 POST: http//:localhost/api/sensor; permite que se agreguen nuevos valores a la base de datos. 
 ### 6. Auntenticación de Servicios API-REST
 A través de Json Web Token. 
