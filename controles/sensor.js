@@ -1,6 +1,6 @@
 'use strict'
 
-const SensorTemp = require('../models/sensor')
+const SensorTemp = require ('../models/sensor')
 
 function getDato(req, res){
     let sensorId = req.params.sensorId

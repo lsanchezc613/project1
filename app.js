@@ -2,17 +2,12 @@
 
 const express = require('express')
 const bodyParser = require('body-parser')
-
 const app = express()
-const dataCtrl = require('./controles/sensor')
+const api = require('./routes')
 
 app.use(bodyParser.urlencoded({ extended: false}))
 app.use(bodyParser.json())
 
-app.get('/api/sensor', dataCtrl.getDatos)
-
-app.get('/api/sensor/:sensorId', dataCtrl.getDato)
-
-app.post('/api/sensor', dataCtrl.saveData)
+app.use('/api', api)
 
 module.exports = app
